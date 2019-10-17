@@ -1,0 +1,99 @@
+:root {
+    --base-color-white: #FCF9F9;
+    --base-color-hover: #17a835;
+    --base-color-success: #47CE59;
+    --base-color-warning: #F1450E;
+    --base-color-blue: #124ba2;
+    --base-font-size: 14px;
+    --base-font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-color: var(--base-color-white);
+    margin: 10%;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.Card {
+    font-family: var(--base-font-family);
+    font-size: var(--base-font-size);
+    border: 2px solid;
+    border-right-width: 40px;
+    padding: 5px 15px;
+}
+
+.Card--success {
+    border-color: var(--base-color-success);
+}
+
+.Card--warning {
+    border-color: var(--base-color-warning);
+}
+
+.Card-title {
+    font-weight: bold;
+    font-size: inherit;
+    font-family: inherit;
+}
+.Card-text {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.Card-link {
+    text-decoration: none;
+    color: var(--base-color-blue);
+    font-family: inherit;
+}
+
+.Button {
+    padding: 12px;
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+}
+
+.Button:hover {
+    background-color: var(--base-color-hover);;
+}
+
+.Button--color {
+    background-color: var(--base-color-blue);;
+    border: none;
+}
+
+.Button--text {
+    font-family: var(--base-font-family);
+    color: var(--base-color-white);
+    text-align: center;
+    font-size: var(--base-font-size);
+    text-decoration: none;
+}
+
+.u-floatRight {
+    float: right
+}
+
+.u-borderRadius {
+    border-radius: 5px;
+}
+
+.u-margin {
+    margin: 25px;
+}
+
+.u-boxShadow {
+    box-shadow: 1px 1px 5px 1px lightgrey;
+}
+
+
+
+
+
+
